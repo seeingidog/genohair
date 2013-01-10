@@ -19,13 +19,19 @@ Genotype.create([
 
 
 
+Person.create([
+  { :email => "guest_n2lfhd4hqqwurfgp5hrmtkjofmhu7pfu7j66ff4qvg3oo3jln0npqupiy7ia5fmc@email_address.com", :encrypted_password => "", :reset_password_token => nil, :reset_password_sent_at => nil, :remember_created_at => nil, :sign_in_count => 1, :current_sign_in_at => "2013-01-10 08:37:59", :last_sign_in_at => "2013-01-10 08:37:59", :current_sign_in_ip => "127.0.0.1", :last_sign_in_ip => "127.0.0.1", :created_at => "2013-01-10 08:37:59", :updated_at => "2013-01-10 08:37:59", :token => "5131e4813ee228af8a7f250b5741aaac", :refresh_token => nil }
+], :without_protection => true )
+
+
+
 Snp.create([
   { :name => "rs17646946", :description => "curliness", :cc => nil, :cg => nil, :gg => "In Europeans, slightly curlier hair on average", :ag => "In Europeans, straighter hair on average", :aa => "In Europeans, straighter hair on average", :gt => nil, :tt => nil, :ct => nil, :at => nil, :created_at => "2013-01-10 08:37:31", :updated_at => "2013-01-10 08:37:31" },
   { :name => "rs3827760", :description => "thickness", :cc => nil, :cg => nil, :gg => nil, :ag => "Thinner than typical Asian hair", :aa => "Typical European or African hair thickness", :gt => nil, :tt => nil, :ct => nil, :at => nil, :created_at => "2013-01-10 08:37:31", :updated_at => "2013-01-10 08:37:31" },
   { :name => "rs1805007", :description => "redness", :cc => "Typical odds of having red hair", :cg => nil, :gg => nil, :ag => nil, :aa => nil, :gt => nil, :tt => "Greatly increased odds of having red hair", :ct => "Substantially higher odds of having red hair", :at => nil, :created_at => "2013-01-10 08:37:31", :updated_at => "2013-01-10 08:37:31" },
-  { :name => "rs6152", :description => "baldness", :cc => nil, :cg => nil, :gg => "able to go bald", :ag => "If male, won't go bald", :aa => "Won't go bald", :gt => nil, :tt => nil, :ct => nil, :at => nil, :created_at => "2013-01-10 08:37:31", :updated_at => "2013-01-10 08:37:31" },
-  { :name => "rs11803731", :description => "curliness", :cc => nil, :cg => nil, :gg => nil, :ag => nil, :aa => "Straighter hair", :gt => nil, :tt => "Curlier hair", :ct => nil, :at => nil, :created_at => "2013-01-10 08:37:31", :updated_at => "2013-01-10 08:37:31" },
-  { :name => "rs16891982", :description => "color", :cc => "Generally non-European, but if European, 7x more likely to have black hair", :cg => nil, :gg => "Generally european", :ag => nil, :aa => nil, :gt => nil, :tt => nil, :ct => nil, :at => nil, :created_at => "2013-01-10 08:37:31", :updated_at => "2013-01-10 08:37:31" }
+  { :name => "rs6152", :description => "baldness", :cc => nil, :cg => nil, :gg => "able to go bald", :ag => "if male, won't go bald", :aa => "won't go bald", :gt => nil, :tt => nil, :ct => nil, :at => nil, :created_at => "2013-01-10 08:37:31", :updated_at => "2013-01-10 08:37:31" },
+  { :name => "rs11803731", :description => "curliness", :cc => nil, :cg => nil, :gg => nil, :ag => nil, :aa => "straighter hair", :gt => nil, :tt => "curlier hair", :ct => nil, :at => nil, :created_at => "2013-01-10 08:37:31", :updated_at => "2013-01-10 08:37:31" },
+  { :name => "rs16891982", :description => "color", :cc => "generally non-European, but if European, 7x more likely to have black hair", :cg => nil, :gg => "generally european", :ag => nil, :aa => nil, :gt => nil, :tt => nil, :ct => nil, :at => nil, :created_at => "2013-01-10 08:37:31", :updated_at => "2013-01-10 08:37:31" }
 ], :without_protection => true )
 
 
