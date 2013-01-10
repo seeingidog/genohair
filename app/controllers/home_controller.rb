@@ -20,7 +20,7 @@ class HomeController < ApplicationController
   end
     
     def demo
-      genotypes = Genotype.where(:person_id => "1")
+      genotypes = Genotype.where(:person_id => 1)
       @personids = genotypes.map {|p| p.personid}.uniq
       @stuff = genotypes.sort_by &:personid
       render :analyze
