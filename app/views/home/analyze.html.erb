@@ -1,0 +1,23 @@
+<% if Array(@personids).count > 1 %>
+	<%= select("person", "ids", @personids,  {:prompt => 'Select Person'}) %>
+	<% %>
+<% end %>
+
+<table class="table table-bordered">
+	<% Array(@stuff).each do |gt| %>
+		<tr class="genotypes <%= gt.personid %>" style="display:none">
+			<td><a href="#" rel="tooltip" title="<%= gt.snp.name %>: <%= gt.data %>"><span class="label label-info"><%= gt.snp.description %></span></a></td>
+			<td><b><%= gt.analyze %></b></td>
+		</tr>
+	<% end %>
+</table>
+
+<script>
+$(document).ready(function() {
+	$('#person_ids').change(function() {
+		var a = $(this).val();
+		$('.genotypes').hide();
+		$('.' + a).show();
+	});
+});
+</script>

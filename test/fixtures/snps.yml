@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  description: MyString
+  cc: MyString
+  cg: MyString
+  gg: MyString
+  ag: MyString
+  aa: MyString
+  gt: MyString
+  tt: MyString
+  ct: MyString
+  at: MyString
+
+two:
+  name: MyString
+  description: MyString
+  cc: MyString
+  cg: MyString
+  gg: MyString
+  ag: MyString
+  aa: MyString
+  gt: MyString
+  tt: MyString
+  ct: MyString
+  at: MyString

@@ -1,0 +1,10 @@
+<p class="lead"  style="margin:100px 0px">Analyze your hair based on your genetic data.</p>
+
+<div class="form-actions">
+	<% if person_signed_in? %>
+		<a href="/analyze"><button class="btn"><i class="icon-search"></i> Analyze</button></a>
+	<% else %>
+		<a href="<%= url_for_23andme_authorize %>"><button class="btn"><i class="icon-ok-circle"></i> Authorize</button></a>	
+	<% end %>
+		<a href="/demo"><button class="btn btn-info"><i class=" icon-zoom-in"></i> Demo</button></a>
+</div>

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  person_id: MyString
+  snp_id: MyString
+  data: MyString
+
+two:
+  person_id: MyString
+  snp_id: MyString
+  data: MyString
