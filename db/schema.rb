@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130110221708) do
+ActiveRecord::Schema.define(:version => 20130113195012) do
 
   create_table "genotypes", :force => true do |t|
     t.integer  "person_id",  :limit => 255
@@ -37,6 +37,7 @@ ActiveRecord::Schema.define(:version => 20130110221708) do
     t.datetime "updated_at",                             :null => false
     t.string   "token"
     t.string   "refresh_token"
+    t.string   "state"
   end
 
   add_index "people", ["email"], :name => "index_people_on_email", :unique => true
