@@ -4,6 +4,10 @@ Example rails application for twenty3andme rails library/engine to interface wit
 
 == Deploy locally or on Heroku
 
+Seed the database with demo data and SNP location data (necessary)
+
+  rake db:seed
+
 Configure .env with environment variables needed
 
   CLIENT_ID=a8a1f21d3417b70de786daea7e9ce2a87
