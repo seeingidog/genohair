@@ -1,6 +1,8 @@
 = GenoHair
 
-Example rails application for twenty3andme rails library/engine to interface with 23andme personal genetic API.
+Code for http://genohair.herokuapp.com/
+
+Example Rails application for twenty3andme library/engine to interface with 23andme personal genetic API.
 
 == Deploy locally or on Heroku
 
